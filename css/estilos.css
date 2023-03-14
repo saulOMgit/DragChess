@@ -4,10 +4,13 @@ body{
     height: 100vh;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(52, 47, 47);
 }
 
 #gameboard{
     display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
 }
 
 .square{
@@ -26,6 +29,7 @@ body{
 
 #info{
     height: 30px;
+    color: white;
 }
 
 img{
